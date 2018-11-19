@@ -7,6 +7,7 @@ $(document).ready(function() {
 							"p5" :	'<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1801.00843" class="pdf">',
 							"p6" :	'<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1509.08323" class="pdf">',
 							"p7" :	'<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1712.02499" class="pdf">',
+							"p8" : 	'<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1811.06382" class="pdf">',
 							"t1" : 	'<iframe src="https://fast.wistia.net/embed/iframe/minvaxedxd" class="pdf" allowfullscreen></iframe>',
 							"t2" : 	'<iframe src="https://www.youtube.com/embed/tSNo5E2yRjA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="pdf"></iframe>',
 							"t3" :  '<iframe src="https://www.youtube.com/embed/L5Y65QuZXAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="pdf"></iframe>'

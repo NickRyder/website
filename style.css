@@ -1,0 +1,185 @@
+body { 
+	/* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */ /*here if you want non-condensed font */
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	padding:0;
+	margin:0;
+	text-transform:uppercase;
+	font-size:45px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:35px;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;	
+	text-transform:uppercase;
+	font-size:30px;
+}
+
+h4 {
+	font-family: 'Josefin Sans', sans-serif;	
+	font-size:20px;
+	padding:0;
+	margin:0;
+}
+
+p {
+	padding:0;
+}
+
+
+/*top left corner */
+
+.intro-container{
+	background-color:rgba(255,255,255,0.5);
+	width:20%;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.intro{ 	/*also used for the content intro container hashtag resourceful */
+	padding:40px;
+}
+
+.img-container{
+	width:100%;
+}
+
+img{
+	object-fit:contain;
+}
+
+/*containt for all of right*/
+
+.right{
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:100%;
+	width:65%;
+}
+
+/*vertical menu */
+
+.menu{
+	background-color:#323232;
+	width:400px;
+	height: 100%;
+	float:right;
+	/* overflow-y:scroll; */
+	/* overflow-x;hidden; */
+	}
+	
+/* .menu::-webkit-scrollbar { */
+    /* width: 0px;  /* remove scrollbar space */
+    /* background: transparent;  /* optional: just make scrollbar invisible */
+/* } */
+/* .menu::-moz-scrollbar { */
+    /* width: 0px;  /* remove scrollbar space */ 
+    /* background: transparent;  /* optional: just make scrollbar invisible */ 
+/* } */
+
+.menu h2 {
+	color:white;
+}
+
+.menu h3 {
+	color:white;
+}
+
+.menu-elements{
+	padding: 20px 40px;
+	position:block;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size:15px;
+}
+
+.menu-elements li a{
+	text-decoration:none;
+	color: #cbcbcb;
+	display:block;
+	font-weight:500;
+	padding:0 0 15px 0;
+}
+
+.menu-elements li a:hover {
+	color:#fff;
+}
+
+.menu-bottom{	/*puts CV and contact at the bottom */
+	width:320px;
+	position:absolute;
+	bottom:20px;
+}
+
+.menu-arrow{
+	color: #cbcbcb;
+	font-size: 45px;
+	vertical-align: middle;
+	padding:0 0 0 0;
+}
+
+.menu-arrow:hover{
+	color:white;
+	cursor:pointer;
+}
+
+
+/*place where papers show */
+
+.content-container{
+	width: -moz-calc(100% - 400px);
+	width: -webkit-calc(100% - 400px);
+	width: -o-calc(100% - 400px);
+	width: calc(100% - 400px);
+	height: 100%;
+	/* display: table; */
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+.content-intro{ 	/*top bit with paper titles and blurb */
+	width: 100%;
+	/* display: table-cell; */
+	background-color: #323232;
+	border-left:1px solid #0e0004;
+	color: white;
+	position:relative;
+}
+
+.content{
+	background-color:white;
+	width:100%;
+	display: block;
+	/* position:relative; */
+	/* display: table-cell; */
+}
+
+.pdf{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+

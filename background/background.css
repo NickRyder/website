@@ -1,0 +1,16 @@
+hml, body, div, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow: hidden;
+}
+canvas{
+    position: absolute;
+    z-index: -1;
+}
+
+body{
+	
+}

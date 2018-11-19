@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nick Ryder</title>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto|Roboto+Condensed" rel="stylesheet"> 
+
+	<!-- Background Css and Javascript -->
+	<link rel="stylesheet" href="background/background.css">
+	<script language="JavaScript" type="text/javascript" src="background/background.js"></script>
+	
+  </head>
+  <body>
+  <canvas></canvas>
+	<div class="intro-container"> <!--top left intro box-->
+		<div class="intro">
+			<h1>Nick Ryder</h1> 
+			<!-- <div class="img-container">
+				<img src="nick_ryder.jpg" alt="Nick Ryder, grad student">
+			</div>-->
+			<hr>
+			<p>I am a math PhD candidate at UC Berkeley interested in the intersection of mathematics and computer science theory. I've worked on projects related to real stable polynomials, hyperbolic programming, finite differential convolutions, the exponent of matrix multiplication and random projections.</p><p>I am advised by Nikhil Srivastava. </p>
+		</div>
+	</div>
+	<div class="right">
+		<div class="menu"> <!--begins the menu master-->
+			<div class="menu-elements">
+				<!-- <h2>Nick Ryder</h2> -->
+				<hr>
+				<h3>Papers</h3>
+				<ul>
+					<li><a href="#" id="p1">Generalizations of the matching polynomial to the multivariate independence polynomial</a></li>
+					<li><a href="#" id="p2">Exponential lower bounds on spectrahedral representations of hyperbolicity cones</a></li>
+					<li><a href="#" id="p3">Real stability testing</a></li>
+					<li><a href="#" id="p4">Connecting the q−Multiplicative Convolution and the Finite Difference Convolution</a></li>
+					<li><a href="#" id="p5">The geometry of rank decompositions of matrix multiplication ii: 3 x 3 matrices</a></li>
+					<li><a href="#" id="p6">On the geometry of border rank algorithms for nx2 by 2x2 matrices</a></li>
+					<!-- <li><a href="#" id="p7">Extensions and their minimizations on the sierpinski gasket</a></li> -->
+					</ul>
+				<h3> Talks</h3>
+				<ul>
+					<li><a href="#" id="t1">Developments with b-additive and q-multiplicative finite free convolutions</a></li>
+					<li><a href="#" id="t2">Real Stability Testing</a></li>
+					<li><a href="#" id="t3">A History of Spectral Graph Theory and its Applications</a></li>
+					<!-- <li><a href="#" id="t4">Talk 4</a></li> -->
+				</ul>
+				
+				<hr>
+				<br>
+				<ul>
+					<li><a href="CV.pdf">CV</a></li>
+					<!-- <li><a href="#">Contact</a></li> -->
+				</ul>
+				<div class="menu-arrow" hidden>
+					&rarr;
+				</div>
+			</div>
+			<div class="content-container" hidden> <!--the paper intros are here with individual ids, youll have to match the id with which link is clicked so the correct one shows-->
+				<div class="content-intro">
+					<div class="intro" id="p1" hidden>
+						<h4>Generalizations of the matching polynomial to the multivariate independence polynomial</h4>
+						<p>Jonathan Leake and Nick Ryder<br>
+						Algebraic Combinatorics 2019, To Appear.</p>
+					</div>
+					<div class="intro" id="p2" hidden>
+						<h4>Exponential lower bounds on spectrahedral representations of hyperbolicity cones</h4>
+						<p>Prasad Raghavendra, Nick Ryder, Nikhil Srivastava, and Benjamin Weitz<br>
+						SODA 2019, To Appear.</p>
+					</div>
+					<div class="intro" id="p3" hidden>
+						<h4>Real stability testing</h4>
+						<p>Prasad Raghavendra, Nick Ryder, and Nikhil Srivastava<br>
+						ITCS 2017</p>
+					</div>
+					<div class="intro" id="p4" hidden>
+						<h4>Connecting the q−Multiplicative Convolution and the Finite Difference Convolution</h4>
+						<p>Jonathan Leake and Nick Ryder<br>
+						Preprint, 2017.</div>
+					<div class="intro" id="p5" hidden>
+						<h4>The geometry of rank decompositions of matrix multiplication ii: 3 x 3 matrices</h4>
+						<p>Grey Ballard, Christian Ikenmeyer, JM Landsberg, and Nick Ryder<br>
+						Journal of Pure and Applied Algebra 2019, To Appear.</p>
+					</div>
+					<div class="intro" id="p6" hidden>
+						<h4>On the geometry of border rank algorithms for n x 2 by 2 x 2 matrices</h4>
+						<p>Nick Ryder and JM Landsberg <br>
+						Experimental Mathematics 2016</p>
+					</div>
+					<div class="intro" id="p7" hidden>
+						<h4>Extensions and their minimizations on the sierpinski gasket</h4>
+						<p>P. Li, N. Ryder, R. Strichartz, and B. Ugurcan<br>
+						</p>
+					</div>
+					
+					
+					
+					<div class="intro" id="t1" hidden>
+						<h4>Developments with b-additive and q-multiplicative finite free convolutions</h4>
+						<p>UCLA IPAM:QALWS1 2018</p>
+					</div>					
+					<div class="intro" id="t2" hidden>
+						<h4>Real Stability Testing</h4>
+						<p>ITCS 2017</p>
+					</div>				
+					<div class="intro" id="t3" hidden>
+						<h4>A History of Spectral Graph Theory and its Applications, Part I</h4>
+						<p>GraphXD: Graphs Across Domains</p>
+					</div>
+					
+				</div>
+				<div class="content"> <!--embed the papers here-->
+					<!-- <div class="embedded-content" id="p1"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1610.00805" width="500" height="375"> -->
+					<!-- </div> -->
+					<!-- <div class="embedded-content" id="p2"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1711.11497" width="500" height="375"> -->
+					<!-- </div>				 -->
+					<!-- <div class="embedded-content" id="p3"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1610.00209" width="500" height="375"> -->
+					<!-- </div> -->
+					<!-- <div class="embedded-content" id="p4"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1712.02499" width="500" height="375"> -->
+					<!-- </div> -->
+					<!-- <div class="embedded-content" id="p5"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1712.02499" width="500" height="375"> -->
+					<!-- </div> -->
+					<!-- <div class="embedded-content" id="p6"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1712.02499" width="500" height="375"> -->
+					<!-- </div> -->
+					<!-- <div class="embedded-content" id="p7"> -->
+						<!-- <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://arxiv.org/pdf/1712.02499" width="500" height="375"> -->
+					<!-- </div> -->
+				</div>
+			</div>
+		</div>	
+	</div>
+  </body>
+</html>
